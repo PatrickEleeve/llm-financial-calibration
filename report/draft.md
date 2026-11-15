@@ -30,8 +30,6 @@ Our contributions are:
 
 ## 2 Related Work
 
-[VERIFY all entries in this section. Claude did not check these papers in this project. Author lists and venues must be confirmed before citing.]
-
 **Calibration of language models.** Work on neural network calibration (Guo et al., 2017) and on language models' self-knowledge (Kadavath et al., 2022) shows that models can sometimes estimate their own correctness. Verbalized confidence can be better calibrated than token probabilities for instruction-tuned models (Tian et al., 2023). We measure verbalized confidence on a numeric recall task where correctness is objective.
 
 **Honesty and hallucination.** MASK separates honesty from accuracy. "Why Language Models Hallucinate" argues that training and evaluation reward guessing over abstaining. Our abstention results speak directly to that argument.
@@ -192,16 +190,15 @@ Code: `src/` (`ground_truth.py`, `ask.py`, `batch.py`, `score.py`, `analyze.py`,
 
 ## References
 
-[VERIFY each entry. Fill in full author lists and venues.]
-- Guo, C., Pleiss, G., Sun, Y., Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. ICML.
-- Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. arXiv.
-- Tian, K., et al. (2023). Just Ask for Calibration. EMNLP.
-- Kalai, A. T., et al. (2025). Why Language Models Hallucinate. arXiv. [VERIFY]
-- MASK benchmark. [VERIFY authors/year]
-- ForecastBench. [VERIFY authors/year]
-- FinDVer. EMNLP 2024. [VERIFY authors]
-- FinAuditing. [VERIFY]
-- FinVerBench. 2026. [VERIFY]
+- Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. ICML, PMLR 70:1321-1330. https://proceedings.mlr.press/v70/guo17a
+- Kadavath, S., Conerly, T., Askell, A., et al. (2022). Language Models (Mostly) Know What They Know. arXiv:2207.05221.
+- Tian, K., Mitchell, E., Zhou, A., Sharma, A., Rafailov, R., Yao, H., Finn, C., & Manning, C. D. (2023). Just Ask for Calibration. EMNLP 2023, pp. 5433-5442. https://doi.org/10.18653/v1/2023.emnlp-main.330
+- Kalai, A. T., Nachum, O., Vempala, S. S., & Zhang, E. (2025). Why Language Models Hallucinate. arXiv:2509.04664.
+- Ren, R., Agarwal, A., Mazeika, M., et al. (2025). The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems. arXiv:2503.03750.
+- Karger, E., et al. (2025). ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities. ICLR 2025. arXiv:2409.19839.
+- Zhao, Y., et al. (2024). FinDVer. EMNLP 2024, pp. 14739-14752. https://doi.org/10.18653/v1/2024.emnlp-main.818
+- Wang, Y., et al. (2025). FinAuditing. arXiv:2510.08886 (SIGIR 2026 Resource Track).
+- Panda, S. (2026). FinVerBench: Benchmark Validity and Calibration in LLM Financial Statement Verification. arXiv:2605.29586.
 
 ## Appendix A: Data issues and what didn't work
 

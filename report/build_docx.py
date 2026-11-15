@@ -58,11 +58,11 @@ BODY = [
           "estimate their own correctness (Kadavath et al., 2022), and verbalized confidence can be better calibrated "
           "than token probabilities for instruction-tuned models (Tian et al., 2023). We measure verbalized confidence "
           "on a numeric recall task with objective ground truth and a known publication date for every fact."),
-    ("p", "**Honesty and hallucination.** MASK separates honesty from accuracy, and Kalai et al. (2025) argue that "
+    ("p", "**Honesty and hallucination.** MASK (Ren et al., 2025) separates honesty from accuracy, and Kalai et al. (2025) argue that "
           "training and evaluation reward guessing over abstaining. Our abstention results bear directly on this."),
-    ("p", "**Financial fact verification and time.** FinDVer, FinAuditing and FinVerBench evaluate models on financial "
-          "documents given in context; we test recall without the document and retrieval with web search, against "
-          "as-reported values. ForecastBench evaluates events after the training cutoff; we instead test facts that were "
+    ("p", "**Financial fact verification and time.** FinDVer (Zhao et al., 2024), FinAuditing (Wang et al., 2025) and FinVerBench (Panda, 2026) evaluate models on "
+          "financial documents given in context; we test recall without the document and retrieval with web search, against "
+          "as-reported values. ForecastBench (Karger et al., 2025) evaluates forecasts of future events with no known answer; we instead test facts that were "
           "already public at query time but may lie beyond the training data."),
 
     ("h2", "3. Methods"),
@@ -181,15 +181,15 @@ BODY = [
                "(~210 MB) are not included."),
 
     ("h2", "References"),
-    ("ref", "[VERIFY] Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. ICML."),
-    ("ref", "[VERIFY] Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. arXiv."),
-    ("ref", "[VERIFY] Tian, K., et al. (2023). Just Ask for Calibration. EMNLP."),
-    ("ref", "[VERIFY] Kalai, A. T., et al. (2025). Why Language Models Hallucinate. arXiv."),
-    ("ref", "[VERIFY] The MASK Benchmark (authors, year, venue)."),
-    ("ref", "[VERIFY] ForecastBench (authors, year, venue)."),
-    ("ref", "[VERIFY] FinDVer (authors), EMNLP 2024."),
-    ("ref", "[VERIFY] FinAuditing (authors, year, venue)."),
-    ("ref", "[VERIFY] FinVerBench (authors), 2026."),
+    ("ref", "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. Proceedings of the 34th International Conference on Machine Learning (ICML), PMLR 70:1321-1330. https://proceedings.mlr.press/v70/guo17a"),
+    ("ref", "Kadavath, S., Conerly, T., Askell, A., et al. (2022). Language Models (Mostly) Know What They Know. arXiv:2207.05221. https://arxiv.org/abs/2207.05221"),
+    ("ref", "Tian, K., Mitchell, E., Zhou, A., Sharma, A., Rafailov, R., Yao, H., Finn, C., & Manning, C. D. (2023). Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback. EMNLP 2023, pp. 5433-5442. https://doi.org/10.18653/v1/2023.emnlp-main.330"),
+    ("ref", "Kalai, A. T., Nachum, O., Vempala, S. S., & Zhang, E. (2025). Why Language Models Hallucinate. arXiv:2509.04664. https://arxiv.org/abs/2509.04664"),
+    ("ref", "Ren, R., Agarwal, A., Mazeika, M., et al. (2025). The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems. arXiv:2503.03750. https://arxiv.org/abs/2503.03750"),
+    ("ref", "Karger, E., Bastani, H., Yueh-Han, C., Jacobs, Z., Halawi, D., Zhang, F., & Tetlock, P. E. (2025). ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities. ICLR 2025. https://arxiv.org/abs/2409.19839"),
+    ("ref", "Zhao, Y., Long, Y., Jiang, T., Wang, C., Chen, W., Liu, H., Tang, X., Zhang, Y., Zhao, C., & Cohan, A. (2024). FinDVer: Explainable Claim Verification over Long and Hybrid-content Financial Documents. EMNLP 2024, pp. 14739-14752. https://doi.org/10.18653/v1/2024.emnlp-main.818"),
+    ("ref", "Wang, Y., Wang, K., Yang, S., et al. (2025). FinAuditing: A Financial Taxonomy-Structured Multi-Document Benchmark for Evaluating LLMs. arXiv:2510.08886 (accepted to SIGIR 2026 Resource Track). https://arxiv.org/abs/2510.08886"),
+    ("ref", "Panda, S. (2026). FinVerBench: Benchmark Validity and Calibration in Large Language Model Financial Statement Verification. arXiv:2605.29586. https://arxiv.org/abs/2605.29586"),
 
     ("h2", "Appendix"),
     ("h3", "A. Data issues and what didn't work"),
