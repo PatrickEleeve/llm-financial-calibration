@@ -175,9 +175,10 @@ BODY = [
           "be interpreted per model, and abstention behaviour should be evaluated together with calibration."),
 
     ("h2", "Code and Data"),
-    ("bullet", "Code repository: [ADD LINK] (src/: ground_truth.py, ask.py, batch.py, score.py, analyze.py, robustness.py)"),
-    ("bullet", "Data/Datasets: derived ground truth, per-answer scores and all result tables in results/ [ADD LINK]. "
-               "Raw SEC data is public and is re-downloaded by the code."),
+    ("bullet", "Code repository: https://github.com/PatrickEleeve/llm-financial-calibration (src/; README lists the steps to reproduce every table and figure)"),
+    ("bullet", "Data/Datasets: https://github.com/PatrickEleeve/llm-financial-calibration (data/derived/ground_truth.csv with SEC accession numbers; per-answer scores and all "
+               "result tables in results/). Raw SEC data is public and is re-downloaded by the code; raw API responses "
+               "(~210 MB) are not included."),
 
     ("h2", "References"),
     ("ref", "[VERIFY] Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. ICML."),

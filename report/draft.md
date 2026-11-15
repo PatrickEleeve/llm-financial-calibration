@@ -188,7 +188,7 @@ Without tools, current models recall reported financial figures poorly. They han
 
 ## Code and Data
 
-Code: `src/` (`ground_truth.py`, `ask.py`, `batch.py`, `score.py`, `analyze.py`, `robustness.py`). Derived data, per-answer scores and all tables: `results/`. Raw SEC data is public and is re-downloaded by the code. [ADD repository link]
+Code: `src/` (`ground_truth.py`, `ask.py`, `batch.py`, `score.py`, `analyze.py`, `robustness.py`). Derived data, per-answer scores and all tables: `results/`. Raw SEC data is public and is re-downloaded by the code. https://github.com/PatrickEleeve/llm-financial-calibration
 
 ## References
 
