@@ -1,0 +1,5 @@
+option,est_usd,with_pilot,with_30pct_margin
+"A: no-tools full x5 (Opus,Sonnet,Haiku,sol,terra) + web 100q x4 cheap",43.22,50.41,63.38
+B: = A but web 200q,56.54,63.73,80.69
+C: = A + gpt-5.5 & Fable no-tools on 300q,64.25,71.44,90.71
+D: = A + Opus web 100q,58.91,66.1,83.77

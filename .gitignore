@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+data/raw/
+data/wrds/
+*.log
+# large raw model responses (contain fetched third-party web content); scored CSVs are committed instead
+results/raw/
+results/batches/
+report/template/
+report/*.png
+report/*.pdf
+.DS_Store
+.claude/

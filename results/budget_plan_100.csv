@@ -1,0 +1,6 @@
+step,est_usd
+"1 no-tools, full 2,285 q, 5 models",29.96
+"2 gpt-5.5 no-tools, s300",17.67
+"3 web, s100, 5 models (no Opus)",23.3
+"(optional) Opus web, s100",15.68
+(ref) gpt-5.5 no-tools full,134.56

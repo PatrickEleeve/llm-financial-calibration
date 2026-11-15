@@ -1,0 +1,13 @@
+ticker,metric,end,form,accn,val,found,matched_as,matched_text,doc_url
+INVA,total_assets,2023-12-31,10-K,0000950170-24-023237,1243507000,True,thousands,"1,243,507",https://www.sec.gov/Archives/edgar/data/1080014/000095017024023237/inva-20231231.htm
+EAI,revenue,2026-09-30,10-Q,0000065984-26-000325,4365168000,True,thousands,"4,365,168",https://www.sec.gov/Archives/edgar/data/7323/000006598426000325/etr-20260930.htm
+ES,revenue,2024-06-30,10-Q,0000072741-24-000018,2533522000,True,thousands,"2,533,522",https://www.sec.gov/Archives/edgar/data/72741/000007274124000018/es-20240630.htm
+CTO,net_income,2023-09-30,10-Q,0001558370-23-016868,2686000,True,thousands,"2,686",https://www.sec.gov/Archives/edgar/data/23795/000155837023016868/cto-20230930x10q.htm
+F,total_assets,2025-03-31,10-Q,0000037996-25-000072,284539000000,True,millions,"284,539",https://www.sec.gov/Archives/edgar/data/37996/000003799625000072/f-20250331.htm
+JXN,net_income,2026-03-31,10-Q,0001822993-26-000072,-424000000,True,millions,424,https://www.sec.gov/Archives/edgar/data/1822993/000182299326000072/jxn-20260331.htm
+HDSN,net_income,2024-06-30,10-Q,0001410578-24-001274,9585000,True,thousands,"9,585",https://www.sec.gov/Archives/edgar/data/925528/000141057824001274/hdsn-20240630x10q.htm
+URG,revenue,2026-03-31,10-Q,0001104659-26-057462,3931000,True,thousands,"3,931",https://www.sec.gov/Archives/edgar/data/1375205/000110465926057462/urg-20260331x10q.htm
+JENA,net_income,2025-09-30,10-Q,0001213900-25-110817,2286119,True,units,"2,286,119",https://www.sec.gov/Archives/edgar/data/2060337/000121390025110817/ea0264511-10q_jenaacq2.htm
+FTDR,revenue,2026-03-31,10-Q,0001193125-26-197175,451000000,True,millions,451,https://www.sec.gov/Archives/edgar/data/1727263/000119312526197175/ftdr-20260331.htm
+CRBG,revenue,2023-09-30,10-Q,0001889539-23-000027,5505000000,True,millions,"5,505",https://www.sec.gov/Archives/edgar/data/1889539/000188953923000027/crbg-20230930.htm
+CECO,net_income,2025-06-30,10-Q,0000950170-25-099435,9510000,True,thousands,"9,510",https://www.sec.gov/Archives/edgar/data/3197/000095017025099435/ceco-20250630.htm

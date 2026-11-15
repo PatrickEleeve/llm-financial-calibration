@@ -1,0 +1,4 @@
+qid,ticker,metric,end,filed,gt_value,consensus_value,n_agree,models,ratio
+0000750686_revenue_quarter_2024-06-30,CAC,revenue,2024-06-30,2024-08-08,8928000.0,42829000.0,6,claude-opus-5-5;claude-sonnet-5-5;claude-haiku-5-5;gpt-6.1-sol;gpt-6.1-terra;gpt-5.6-sol,4.797155017921147
+0000750686_revenue_quarter_2025-06-30,CAC,revenue,2025-06-30,2025-08-07,10358000.0,62276000.0,6,claude-opus-5-5;claude-sonnet-5-5;claude-haiku-5-5;gpt-6.1-sol;gpt-6.1-terra;gpt-5.6-sol,6.01235759799189
+0001111711_revenue_quarter_2025-12-31,NI,revenue,2025-12-31,2026-02-11,6522800000.0,1902900000.0,5,claude-sonnet-5-5;claude-haiku-5-5;gpt-6.1-sol;gpt-6.1-terra;gpt-5.6-sol,0.29173054516465324

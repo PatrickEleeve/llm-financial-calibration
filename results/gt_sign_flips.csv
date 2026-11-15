@@ -1,0 +1,2 @@
+qid,ticker,metric,true,n_models,models,mean_conf
+0001889539_net_income_quarter_2023-03-31,CRBG,net_income,-459000000.0,2,gpt-6.1-sol;gpt-5.6-sol,0.75

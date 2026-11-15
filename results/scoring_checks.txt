@@ -1,0 +1,39 @@
+claude-opus-5-5    none: stale prompts 0
+claude-opus-5-5    web : stale prompts 0
+claude-sonnet-5-5  none: stale prompts 0
+claude-sonnet-5-5  web : stale prompts 0
+claude-haiku-5-5   none: stale prompts 0
+claude-haiku-5-5   web : stale prompts 0
+gpt-6.1-sol        none: stale prompts 0
+gpt-6.1-sol        web : stale prompts 0
+gpt-6.1-terra      none: stale prompts 0
+gpt-6.1-terra      web : stale prompts 0
+gpt-5.6-sol        none: stale prompts 0
+gpt-5.6-sol        web : stale prompts 0
+dropped    7 records ('claude-haiku-5-5', 'web', 'not in analysis set')
+dropped    7 records ('claude-opus-5-5', 'web', 'not in analysis set')
+dropped    7 records ('claude-sonnet-5-5', 'web', 'not in analysis set')
+dropped   15 records ('gpt-5.6-sol', 'web', 'not in analysis set')
+dropped    7 records ('gpt-6.1-sol', 'web', 'not in analysis set')
+dropped    7 records ('gpt-6.1-terra', 'web', 'not in analysis set')
+claude-haiku-5-5   none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+claude-haiku-5-5   web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+claude-opus-5-5    none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+claude-opus-5-5    web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+claude-sonnet-5-5  none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+claude-sonnet-5-5  web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-5.6-sol        none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-5.6-sol        web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-6.1-sol        none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-6.1-sol        web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-6.1-terra      none: n=2285 errors=0 unparsed=0 reparse_diff=0 -> OK
+gpt-6.1-terra      web : n=300 errors=0 unparsed=0 reparse_diff=0 -> OK
+
+abstain x value_usd null (all models, both conditions):
+value_null  False  True 
+abstain                 
+False        8686      0
+True         4091   2733
+confidence_pct: null=0 >100=0 <0=0 in (0,1)=16 ==1=462
+answered with null confidence: 0
+parse notes: {'': 15510}
