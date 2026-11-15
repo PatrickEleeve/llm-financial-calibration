@@ -220,18 +220,40 @@ BODY = [
     ("fig:fig4_reliability.png", "Figure D3. Reliability diagrams: stated confidence against observed accuracy within 1%, answered questions only; marker area proportional to n, hollow markers are bins with fewer than 5 answers."),
     ("fig:fig5_prompt_variants.png", "Figure D4. Prompt-variant robustness (no tools, s300): accuracy and mean confidence over all questions by filing-date bin for the main prompt and three variants."),
     ("h3", "E. Limitations and Dual-Use / Ethical Considerations"),
-    ("p", "[AUTHOR TO REVIEW] All data are public SEC filings; no personal data are used. The work measures how far "
-          "model-quoted financial figures can be trusted and does not provide a capability that could be misused; the "
-          "main risk it addresses is over-reliance on confident but wrong figures. Model outputs in this study are not "
-          "investment advice. Raw model responses contain only public information."),
+    ("p", "**Data and privacy.** All ground-truth values come from public SEC filings (XBRL company facts) about "
+          "listed companies; no personal, proprietary or licensed data are used. Data were downloaded within the SEC's "
+          "fair-access limits with a declared contact in the request header; the contact is read from a local "
+          "environment file and is not published in the repository."),
+    ("p", "**Dual use.** We see little direct misuse potential: the study measures how far model-quoted figures can "
+          "be trusted and does not create a new capability. Two indirect risks remain. First, the benchmark and "
+          "prompts could be used to tune models to sound calibrated on this task without being more reliable "
+          "elsewhere. Second, a reader could over-read our results as a licence to trust a model whose stated "
+          "confidence looked well calibrated here; our sample covers three metrics of 140 US companies and does not "
+          "show that confidence is reliable for other figures, firms or periods."),
+    ("p", "**Use of the results.** Nothing in this work is investment, accounting or legal advice, and model answers "
+          "in our data should not be used for trading or reporting. Ground-truth values may contain tagging errors "
+          "(Appendix A), so individual rows should be checked against the cited filing before any reuse."),
+    ("p", "**Fairness and scope.** Accuracy was lower for smaller companies for every model, so unreliable figures "
+          "would fall disproportionately on less-covered firms. The study is limited to US-listed companies and "
+          "English prompts."),
+    ("p", "**Other.** Three of the six evaluated models are made by the same company as the assistant that helped "
+          "write the code, which we flag as a possible conflict; the scoring is deterministic and identical for all "
+          "models. We did not publish raw model responses because they include third-party web content retrieved by "
+          "search tools. Total compute cost was about $128 of API usage, with no model training."),
 
     ("h2", "LLM Usage Statement"),
-    ("p", "[AUTHOR TO EDIT so that it is accurate] We used Claude (Anthropic, claude-opus-5-5 via Claude Code) to write "
-          "the data pipeline, API runners, scoring and analysis code; to run the experiments under the author's direction "
-          "and budget decisions; to produce the tables and figures; and to draft the text of this report, which the "
-          "author reviewed and edited. All numbers were produced by code from saved results files and checked against "
-          "them. The author chose the research question, approved the design decisions and budgets, and verified the "
-          "final text and references."),
+    ("p", "We used Claude (Anthropic; claude-opus-5-5 through Claude Code, and claude-sonnet-5-5 for the final "
+          "reference check) as a coding and writing assistant. It wrote the data pipeline, the batch runners for the "
+          "model APIs, the scoring, bootstrap and plotting code, and the script that fills this template; it ran "
+          "the experiments and produced all tables and figures; it checked the results for problems (for example the "
+          "rate-limited Sonnet answers and several doubtful ground-truth rows) and wrote the first draft of this "
+          "report. It also looked up the references with web search; we checked the bibliographic details against "
+          "arXiv and ACL Anthology pages, but we did not read every cited paper in full."),
+    ("p", "The research question, the design decisions (models, samples, conditions, prompt variants), the budget "
+          "limits and the approval of every paid run were made by the author. All numbers in the report are produced "
+          "by code from saved result files in the repository; the text was drafted by Claude and then reviewed and "
+          "edited by the author. Six of the evaluated models are Claude and GPT models; the same assistant that helped "
+          "build the study is therefore also among the models being measured, which is noted in Appendix E."),
 ]
 
 MODELS = ["claude-opus-5-5", "claude-sonnet-5-5", "claude-haiku-5-5", "gpt-6.1-sol", "gpt-6.1-terra", "gpt-5.6-sol"]
